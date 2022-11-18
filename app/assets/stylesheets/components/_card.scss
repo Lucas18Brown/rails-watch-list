@@ -10,8 +10,14 @@
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  box-shadow: 1 1 8px rgba(131, 131, 131, 0.1);
   margin: 10px;
+  position: relative;
+  i {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+  }
   a {
     color: white;
     text-decoration: none;
@@ -40,7 +46,7 @@ ul {
     text-align: center;
   }
   img {
-    margin-left: 20px;
+    margin: auto;
     width: 200px;
   }
 }

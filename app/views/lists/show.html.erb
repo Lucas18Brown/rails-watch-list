@@ -14,6 +14,15 @@
   </div>
   <% end %>
   </div>
-<%= link_to 'new bookmark', new_list_bookmark_path(@list) %>
 
-<%= link_to 'back', lists_path %>
+<div class="bookmark-icon">
+  <%= link_to new_list_bookmark_path(@list) do %>
+    <i class="fa-solid fa-bookmark"></i>
+  <% end %>
+</div>
+
+<div class="back-icon">
+  <%= link_to lists_path do %>
+    <i class="fa-solid fa-arrow-left-long"></i>
+  <% end %>
+</div>
