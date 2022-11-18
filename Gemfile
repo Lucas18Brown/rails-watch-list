@@ -45,6 +45,8 @@ gem "bootsnap", require: false
 # Use Sass to process CSS
 gem "sassc-rails"
 
+gem "cloudinary"
+
 gem "dotenv-rails", groups: [:development, :test]
 
 gem "autoprefixer-rails"
