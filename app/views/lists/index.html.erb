@@ -3,6 +3,7 @@
   <% @lists.each do |list| %>
     <li>
       <%= link_to list.name, list_path(list) %>
+      <img src=<%= list.poster_url %> alt="list-poster">
     </li>
   <% end %>
 </ul>
