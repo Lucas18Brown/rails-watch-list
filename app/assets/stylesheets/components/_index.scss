@@ -5,6 +5,13 @@
 @import "navbar";
 @import "card";
 @import "button";
+@import "footer";
+@import "banner";
+
+body {
+  background-color: #212121;
+  color: white;
+}
 
 .container {
   position: relative;

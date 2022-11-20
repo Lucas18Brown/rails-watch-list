@@ -1,4 +1,6 @@
-<h1 class="text-center m-4"><%= @list.name %></h1>
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= cl_image_path @list.photo.key, height: 500, crop: :fill %>)">
+  <h1 class="text-center m-4"><%= @list.name %></h1>
+</div>
 <div class="cards">
 <% @list.bookmarks.each do |bookmark| %>
   <div class="card">
